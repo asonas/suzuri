@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require 'suzuri'
+
+Suzuri.api_key = "YOUR API KEY"
+Suzuri::Item.get
+```
 
 ## Contributing
 
